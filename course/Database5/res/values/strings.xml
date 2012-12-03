@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Database</string>
+    <string name="btn_save">Save</string>
+    <string name="menu_modify">Modify</string>
+    <string name="menu_delete">Delete</string>
+
+</resources>

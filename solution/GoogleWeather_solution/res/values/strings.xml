@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Weather</string>
+    <string name="temperature">%d\u2103</string>
+	<string-array name="day_of_week">
+	    <item>Monday</item>
+	    <item>Tuesday</item>
+	    <item>Wednesday</item>
+	    <item>Thursday</item>
+	    <item>Friday</item>
+	    <item>Saturday</item>
+	    <item>Sunday</item>
+	</string-array>
+	<string-array name="city_values">
+	    <item>0</item>
+	    <item>1</item> <!-- 彰化 -->
+	    <item>2</item><!-- 嘉義 -->
+	    <item>3</item><!-- 恆春 -->
+	    <item>4</item> <!-- 新竹 -->
+	    <item>5</item><!-- 花蓮 -->
+	    <item>6</item><!-- 高雄 -->
+	    <item>7</item><!-- 基隆 -->
+	    <item>8</item><!-- 金門 -->
+	    <item>9</item><!-- 蘭嶼 -->
+	    <item>10</item><!-- 媽祖 -->
+	    <item>11</item><!-- 苗栗 -->
+	    <item>12</item><!-- 南投 -->
+	    <item>13</item><!-- 澎湖 -->
+	    <item>14</item><!-- 屏東 -->
+	    <item>15</item><!-- 台中 -->
+	    <item>16</item><!-- 台南 -->
+	    <item>17</item><!-- 台東 -->
+	    <item>18</item><!-- 桃園 -->
+	    <item>19</item><!-- 宜蘭 -->
+	    <item>20</item><!-- 雲林 -->
+	</string-array>
+	<string-array name="city_entries">
+	    <item>Taipei</item>
+	    <item>Changhua</item> <!-- 彰化 -->
+	    <item>Chiayi</item><!-- 嘉義 -->
+	    <item>Hengchun</item><!-- 恆春 -->
+	    <item>Hsinchu</item> <!-- 新竹 -->
+	    <item>Hualien</item><!-- 花蓮 -->
+	    <item>Kaohsiung</item><!-- 高雄 -->
+	    <item>Keelung</item><!-- 基隆 -->
+	    <item>Kinmen</item><!-- 金門 -->
+	    <item>Lanyu</item><!-- 蘭嶼 -->
+	    <item>Matzu</item><!-- 媽祖 -->
+	    <item>Miaoli</item><!-- 苗栗 -->
+	    <item>Nantou</item><!-- 南投 -->
+	    <item>Penghu</item><!-- 澎湖 -->
+	    <item>Pingtung</item><!-- 屏東 -->
+	    <item>Taichung</item><!-- 台中 -->
+	    <item>Tainan</item><!-- 台南 -->
+	    <item>Taitung</item><!-- 台東 -->
+	    <item>Taoyuan</item><!-- 桃園 -->
+	    <item>Yilan</item><!-- 宜蘭 -->
+	    <item>Yunlin</item><!-- 雲林 -->
+	</string-array>
+	
+    <string name="wait">Loading data, please wait\u2026</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_setting">Setting</string>
+    <string name="key_city">KEY_CITY</string>
+    <string name="setting_city_title">Weather of city</string>
+    <string name="setting_city_summary">Choose a city to see the weather</string>
+    <string name="setting_city_dialog">Choose a city</string>
+</resources>

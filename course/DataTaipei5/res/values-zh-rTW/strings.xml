@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">台北市免費熱點查詢</string>
+    <string name="app_title">台北市免費熱點</string>
+    <string name="refresh">更新</string>
+    <string name="details">資訊內容</string>
+    <string name="btn_open_map">地圖</string>
+    <string name="btn_open_street">街景圖</string>
+    <string name="wait">讀取資料中，請稍候\u2026</string>
+    <string name="btn_search">搜尋</string>
+    <string name="search">搜尋地點</string>
+    <string name="search_hint">輸入部份地址</string>
+
+</resources>
+

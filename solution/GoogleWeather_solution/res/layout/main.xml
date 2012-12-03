@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#dedede">
+        <TextView
+	        android:id="@+id/current_date"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="28sp"
+	        android:shadowColor="#FFFFFF"
+	        android:shadowDy="1"
+	        android:shadowRadius="1"
+	        android:text="Thursday, 2011/11/17" />
+        <DigitalClock
+	        android:id="@+id/digitalClock1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:shadowColor="#FFFFFF"
+	        android:shadowDy="1"
+	        android:shadowRadius="1"
+	        android:textSize="50sp"
+	        android:textStyle="bold"/>
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:gravity="center">
+	         <ImageView
+		        android:id="@+id/current_weathers"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/rain"/>
+	         <LinearLayout 
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:orientation="vertical"
+	             android:gravity="center_horizontal|top">
+	             <TextView
+			        android:id="@+id/current_city"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textSize="24sp"
+			        android:textStyle="bold"
+			        android:shadowColor="#FFFFFF"
+			        android:shadowDy="1"
+			        android:shadowRadius="1"
+			        android:text="Taipei" />
+	             <TextView
+			        android:id="@+id/current_tempature"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textSize="55sp"
+			        android:shadowColor="#FFFFFF"
+			        android:shadowDy="1"
+			        android:shadowRadius="1"
+			        android:textStyle="bold"
+			        android:text="24\u2103" />
+	         </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    
+    </LinearLayout>
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#c0c0c0"/>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="5"
+        android:orientation="vertical">
+        <ListView 
+            android:id="@+id/forecast_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:dividerHeight="1px"/>
+    </LinearLayout>
+    
+    
+    
+    
+
+</LinearLayout>

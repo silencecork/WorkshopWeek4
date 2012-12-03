@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">臉書圖片上傳器</string>
+    <string name="btn_select_photo">選擇上傳的圖片</string>
+    <string name="desc">輸入照片說明</string>
+    <string name="menu_share">上傳</string>
+    <string name="menu_logout">登出</string>
+    <string name="wait">照片正在上傳，請稍等\u2026</string>
+    <string name="result_success">上傳成功</string>
+    <string name="result_fail">上傳失敗</string>
+	<string name="logout_success">成功登出</string>
+	<string name="title">臉書圖片上傳器</string>
+        
+</resources>
